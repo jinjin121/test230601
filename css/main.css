@@ -1,0 +1,121 @@
+h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.num01 {
+    background: #ddd;
+    padding: 100px 0;
+}
+
+.num01 .tit {
+    width: 1200px;
+    margin: 0 auto 50px auto;
+}
+
+.num01 .tit h2 {
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.num01 .tit p {
+    font-size: 20px;
+}
+
+.num01 .inner {
+    max-width: 1200px;
+    display: flex;
+    gap: 75px;
+    margin: 0 auto;
+}
+
+.num01 .inner .imgbox {
+    width: 350px;
+    height: 400px;
+    background: olive;
+    font-size: 0;
+}
+
+.num01 .inner p {
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* num01끝 */
+
+.num02 .inner {
+    outline: 1px solid tomato;
+    position: relative;
+}
+
+.num02 .inner figure {
+    background: hotpink;
+    width: 100%;
+    height: 100vh;
+}
+
+/* 
+
+.num02 .inner .bgbox {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1200px;
+    height: 150px;
+    background: skyblue;
+}
+
+.txtbox {
+    display: flex;
+    padding: 0 50px;
+    gap: 15px;
+}
+
+.txtbox span {
+    outline: 1px solid tomato;
+    height: 150px;
+    z-index: 999;
+    background-color: beige;
+} */
+.num02 .inner .bgbox {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 1200px;
+    height: 150px;
+    background: violet;
+    display: flex;
+}
+
+.num02 .inner .bgbox .txtbox p {
+    flex: 1;
+    outline: 1px solid tomato;
+    line-height: 150px;
+}
+
+/* num02끝 */
+
+.num03 {
+    width: 1200px;
+    outline: 1px solid tomato;
+    margin: 0 auto;
+}
+
+.num03 .inner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.num03 .inner figure {
+    width: 600px;
+    height: 400px;
+    background: green;
+}
+
+.num03 .inner p {
+    display: block;
+    background: #ddd;
+}
